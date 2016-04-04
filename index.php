@@ -1,6 +1,6 @@
+
 <?php
 require_once "connexion.php";
-
  ?>
 
   <!-- partie header -->
