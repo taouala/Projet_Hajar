@@ -11,7 +11,7 @@ function verfier(){
 			document.getElementById("myspan");
 			var txt;
 				//ajax
-				if(txt=file("/proj/Projet_Hajar/login/js/ctrlLogin.php?login="+escape(login)+"&pass="+escape(pass))){
+				if(txt=file("/Projet_Hajar/login/js/ctrlLogin.php?login="+escape(login)+"&pass="+escape(pass))){
 					
 					document.getElementById("spanLogin").style="color:white";
 					if(txt =="ok"){
