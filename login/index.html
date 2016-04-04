@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple login form</title>
+    
+    
+    <link rel="stylesheet" href="css/reset.css">
+
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+  <div class="login">
+    <h1 class="login-heading">
+      <strong>Welcome.</strong> Please login.</h1>
+      <form method="get" action="/proj/Projet_Hajar/">
+        <input type="text" id="user" name="user" placeholder="Username" required="required" class="input-txt" />
+          <input type="password" id="pass" name="password" placeholder="Password" required="required" class="input-txt" />
+          <div class="login-footer">
+             <a href="#" class="lnk">
+              <span class="icon icon--min">ಠ╭╮ಠ</span> 
+              I've forgotten something
+            </a>
+            <button class="btn btn--right" onclick="verfier();return false;">Sign in  </button>
+    
+          </div>
+      </form>
+      <span id="spanLogin"></span>
+  </div>
+</div>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
